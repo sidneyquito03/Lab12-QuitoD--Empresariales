@@ -1,0 +1,91 @@
+
+.edit-category-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+
+.edit-category-container h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.input-styled {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+.input-styled:focus {
+    border-color: #4e9bde;
+    box-shadow: 0 0 10px rgba(78, 155, 222, 0.5);
+    background-color: #fff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.btn-save {
+    padding: 12px 25px;
+    background-color: #56f57b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-save:hover {
+    background-color: #88fda1;
+    transform: scale(1.05);
+    color: #ffffff;
+}
+
+.btn-cancel {
+    padding: 12px 25px;
+    background-color: #6dbbff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-cancel:hover {
+    background-color: #a2d7ff;
+    transform: scale(1.05);
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .edit-category-container {
+        padding: 15px;
+    }
+
+    .edit-category-container h3 {
+        font-size: 1.5rem;
+    }
+
+    .input-styled {
+        font-size: 0.9rem;
+    }
+
+    .btn-save, .btn-cancel {
+        padding: 10px 20px;
+    }
+}
